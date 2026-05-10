@@ -1,0 +1,49 @@
+.bg-landing{
+    background-image: url('./halloweensized.jpg');
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    height:100vh;
+
+    display:flex;
+    justify-content: center;
+    align-items:center;
+
+    position:relative;
+}
+
+
+.content{
+    position:relative;
+    z-index:2;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:3.9rem;
+
+    text-align:center;
+}
+
+body{
+     font-family: "Special Elite", system-ui;
+}
+
+h1{
+    font-family: "Cinzel", serif;
+}
+h3{
+    font-family: "Rubik Wet Paint", system-ui;
+}
+
+input, button{
+    font-family: "Google Sans Flex", sans-serif;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 1000px rgba(0,0,0,.6) inset !important;
+    -webkit-text-fill-color: white !important;
+    transition: background-color 9999s ease-in-out 0s;
+}

@@ -1,12 +1,12 @@
 
 import './App.css'
-import Home from './views/Home'
+import Landing from './views/Landing'
 
 function App() {
 
   return (
     <>
-      <Home />
+      <Landing />
     </>
   )
 }
