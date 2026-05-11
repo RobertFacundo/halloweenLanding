@@ -5,11 +5,19 @@ import Input from "../features/landing/Input";
 const Landing = () => {
     return (
         <section className="bg-landing">
-            <div className="content">
-                <Header />
-                <Counter />
-                <Input/>
+
+            <div className="landing-sticky">
+
+                <div className="background-layer" />
+
+                <div className="content">
+                    <Header />
+                    <Counter />
+                    <Input />
+                </div>
+
             </div>
+
         </section>
     )
 };
