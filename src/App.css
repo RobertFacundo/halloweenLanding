@@ -65,6 +65,7 @@
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
+    z-index:0;
 }
 
 .content{
@@ -76,6 +77,13 @@
     gap:3.9rem;
 
     text-align:center;
+      opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+.content.show {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 body{
