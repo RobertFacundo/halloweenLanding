@@ -1,4 +1,4 @@
-import useFogAnimation from "./useFogAnimation";
+import useFogAnimation from "./hooks/useFogAnimation";
 import { useRef } from "react";
 
 const Fog = ({ onReady }: { onReady?: () => void }) => {
